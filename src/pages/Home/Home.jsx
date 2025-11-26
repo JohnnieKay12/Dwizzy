@@ -41,7 +41,7 @@ export default function Home() {
                         <div className="col">
                             <div className="sub_banner_image">
                                 {/* <LazyLoadImage/> */}
-                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/v1761335099/banner-img2_qwtnyo.jpg" alt="Banner_image" loading="lazy"/>
+                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761335099/banner-img2_qwtnyo.jpg" alt="Banner_image" loading="lazy"/>
                             </div>
 
                             {/* Floating Icons */}

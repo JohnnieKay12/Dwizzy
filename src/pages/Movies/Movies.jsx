@@ -24,70 +24,70 @@ export default function Movies() {
             id: 1,
             title: "TRON: Ares",
             subtitle: "In Theaters this Friday",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159346/latest-trailer-1_iqyo97.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159346/latest-trailer-1_iqyo97.webp",
             trailer: "https://www.youtube.com/embed/IAdJYzgSPiI"
         },
         {
             id: 2,
             title: "HIM",
             subtitle: "Watch At Home Now",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159346/latest-trailer-2_ciru6u.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159346/latest-trailer-2_ciru6u.webp",
             trailer: "https://www.youtube.com/embed/MC1Mwj5K3Lk"
         },
         {
             id: 3,
             title: "Gachiakuta",
             subtitle: "Official Cour 2 Trailer [Subtitled]",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159347/latest-trailer-3_ftl4ev.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159347/latest-trailer-3_ftl4ev.webp",
             trailer: "https://www.youtube.com/embed/l9T5D-kjK6U"
         },
         {
             id: 4,
             title: "Predator: Badlands",
             subtitle: "Final Trailer",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159347/latest-trailer-4_qyzemz.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159347/latest-trailer-4_qyzemz.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY"
         },
         {
             id: 5,
             title: "Bugonia",
             subtitle: "Official Trailer",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159347/latest-trailer-5_przu4k.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159347/latest-trailer-5_przu4k.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY",
         },
         {
             id: 6,
             title: "The Smashing Machine",
             subtitle: "The Smashing Machine - Official Trailer",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159353/latest-trailer-6_uiwaf1.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159353/latest-trailer-6_uiwaf1.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY"
         },
         {
             id: 7,
             title: "Roofman",
             subtitle: "Final Trailer",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159354/latest-trailer-7_bmxu5e.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159354/latest-trailer-7_bmxu5e.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY"
         },
         {
             id: 8,
             title: "A Big Bold Beautiful Journey",
             subtitle: "In Cinemas Now",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159354/latest-trailer-8_bky17q.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159354/latest-trailer-8_bky17q.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY"
         },
         {
             id: 9,
             title: "One Battle After Another",
             subtitle: "An action comedy on an epic scale",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159354/latest-trailer-9_lcawjw.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159354/latest-trailer-9_lcawjw.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY"
         },
         {
             id: 10,
             title: "One Battle After Another",
             subtitle: "An action comedy on an epic scale",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159354/latest-trailer-9_lcawjw.webp",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159354/latest-trailer-9_lcawjw.webp",
             trailer: "https://www.youtube.com/embed/6WkPwk0PHzY"
         },
     ];
@@ -99,7 +99,7 @@ export default function Movies() {
             id: 1, 
             title: "The 4 Rascals",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764158684/trending-1_grbbbs.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764158684/trending-1_grbbbs.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -115,7 +115,7 @@ export default function Movies() {
             id: 2, 
             title: "365 Days",
             releaseDate: "11 Oct 2025",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159359/trending-2_pz6yde.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159359/trending-2_pz6yde.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -131,7 +131,7 @@ export default function Movies() {
             id: 3, 
             title: "MAI",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159359/trending-3_sf2tdx.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159359/trending-3_sf2tdx.jpg",
             year: 2025,
             genres: ["Crime", "Thriller", "Drama", "Mystery"],
             duration: "2h 10m",
@@ -147,7 +147,7 @@ export default function Movies() {
             id: 4, 
             title: "WLGYT",
             releaseDate: "11 Oct 2025",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159360/trending-4_rc7uur.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159360/trending-4_rc7uur.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -163,7 +163,7 @@ export default function Movies() {
             id: 5, 
             title: "Mantis",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159360/trending-5_kieavv.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159360/trending-5_kieavv.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -179,7 +179,7 @@ export default function Movies() {
             id: 6, 
             title: "Monster",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159364/trending-6_k7pwkx.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159364/trending-6_k7pwkx.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -195,7 +195,7 @@ export default function Movies() {
             id: 7, 
             title: "Wednesday",
             releaseDate: "11 Oct 2025",
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159364/trending-7_mnjc57.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159364/trending-7_mnjc57.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -211,7 +211,7 @@ export default function Movies() {
             id: 8, 
             title: "Face Off 6",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159365/trending-8_s4ajoe.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159365/trending-8_s4ajoe.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -227,7 +227,7 @@ export default function Movies() {
             id: 9, 
             title: "Kill Boksoon",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159368/trending-9_nydpzj.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159368/trending-9_nydpzj.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -243,7 +243,7 @@ export default function Movies() {
             id: 10, 
             title: "Sinners",
             releaseDate: "11 Oct 2025", 
-            img: "https://res.cloudinary.com/dchx8lhox/image/upload/v1764159364/trending-7_mnjc57.jpg",
+            img: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764159364/trending-7_mnjc57.jpg",
             year: 2025,
             genres: ["Thriller", "Drama", "History", "Mystery"],
             duration: "2h 10m",
@@ -262,7 +262,7 @@ export default function Movies() {
             {/* HERO */}
             <section
                 className="movie-hero"
-                style={{ backgroundImage: `url(${"https://res.cloudinary.com/dchx8lhox/image/upload/v1764158301/hero-bg_gicoox.jpg"})` }}
+                style={{ backgroundImage: `url(${"https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764158301/hero-bg_gicoox.jpg"})` }}
             >
                 <div className="movie-hero-overlay">
                     <h1 className="movie-hero-title">Welcome.</h1>

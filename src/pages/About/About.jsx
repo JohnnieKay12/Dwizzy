@@ -2,7 +2,6 @@ import React from 'react'
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBusinessTime, faChartPie, faTruckFast, faUserClock, faHouseLaptop, faPhone } from '@fortawesome/free-solid-svg-icons';
-// import AboutImage from '../../assets/about/about_img1.jpg';
 
 export default function About() {
     // Icons
@@ -62,7 +61,7 @@ export default function About() {
                     <div className="about_box_details">
                         <div className="about_col">
                             <div className="about_image">
-                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/v1761337065/about_img1_dxcx3r.jpg" alt="about" className="about_main" loading='lazy'/>
+                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761337065/about_img1_dxcx3r.jpg" alt="about" className="about_main" loading='lazy'/>
                             </div>
                             <div className="img_info__box">
                                 <h6 className="img_info__title">LET'S WORK TOGETHER!</h6>

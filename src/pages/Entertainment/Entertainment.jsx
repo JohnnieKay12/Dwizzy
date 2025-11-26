@@ -25,21 +25,21 @@ export default function Entertainment() {
             id: 1,
             title: "Top Box Office Movies",
             description: "Catch the latest blockbusters trending worldwide.",
-            image: "https://res.cloudinary.com/dchx8lhox/image/upload/v1761485525/movies1_huswur.jpg",
+            image: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761485525/movies1_huswur.jpg",
             link: "/movies"
         },
         {
             id: 2,
             title: "Hot Music Releases",
             description: "Stream the newest hits making waves globally",
-            image: "https://res.cloudinary.com/dchx8lhox/image/upload/v1761485530/music1_rw8qh3.jpg",
+            image: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761485530/music1_rw8qh3.jpg",
             link: "/music"
         },
         {
             id: 3,
             title: "Viral Comedy Clips",
             description: "Laugh out loud with the funniest trending skits.",
-            image: "https://res.cloudinary.com/dchx8lhox/image/upload/v1761485608/comedy1_hhk8oc.jpg",
+            image: "https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761485608/comedy1_hhk8oc.jpg",
             link: "/comedy"
         },
         // {
@@ -108,7 +108,7 @@ export default function Entertainment() {
                 {/* Background image */}
                 <img
                     className='hero-img'
-                    src="https://res.cloudinary.com/dchx8lhox/image/upload/v1761337440/entertainment-poster_xp32i7.jpg"
+                    src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761337440/entertainment-poster_xp32i7.jpg"
                     alt='Entertainment Background'
                     loading='lazy'
                 />
@@ -206,7 +206,7 @@ export default function Entertainment() {
                         {/* Main Spotlight */}
                         <div className="featured-main">
                             <img
-                            src="https://res.cloudinary.com/dchx8lhox/image/upload/v1761486102/featured-movie_i7e51b.jpg"
+                            src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1761486102/featured-movie_i7e51b.jpg"
                             alt="Featured Movie"
                             className="featured-img"
                             loading='lazy'
@@ -224,7 +224,7 @@ export default function Entertainment() {
                         <div className="featured-side">
                             <div className="featured-card">
                                 <img
-                                    src="https://res.cloudinary.com/dchx8lhox/image/upload/v1764156919/featured-music_qfo7yn.jpg"
+                                    src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764156919/featured-music_qfo7yn.jpg"
                                     alt="Music Spotlight"
                                     loading='lazy'
                                 />
@@ -236,7 +236,7 @@ export default function Entertainment() {
 
                             <div className="featured-card">
                                 <img
-                                    src="https://res.cloudinary.com/dchx8lhox/image/upload/v1764157076/featured-comedy_ajpudw.jpg"
+                                    src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764157076/featured-comedy_ajpudw.jpg"
                                     alt="Comedy Feature"
                                     loading='lazy'
                                 />

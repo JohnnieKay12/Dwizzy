@@ -9,7 +9,7 @@ export default function Contact() {
                     <div className="contact_wrapper">
                         <div className="contact_col">
                             <div className="contact_image">
-                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/v1764161690/contact_iyinlq.jpg" alt="Contact" loading='lazy'/>
+                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/f_auto,q_auto/v1764161690/contact_iyinlq.jpg" alt="Contact" loading='lazy'/>
                             </div>
                         </div>
                         <div className="contact_col">
