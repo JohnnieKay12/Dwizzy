@@ -168,6 +168,29 @@
     }
 }
 
+@media (max-width: 767px) {
+    .banner_outer .col {
+        width: 100%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+    .sub_banner_image img {
+        width: 100%;
+        height: auto;
+        transform: scale(1.35);
+        margin: 0;
+    }
+
+    .sub_banner_image {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 0 2rem;
+    }
+    .banner_outer{
+        gap: 2rem;
+    }
+}
 
 @keyframes wave {
     0%,
