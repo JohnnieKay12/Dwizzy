@@ -1,0 +1,42 @@
+import React from 'react';
+import './Contact.css';
+
+export default function Contact() {
+    return (
+        <>
+            <section id="contact">
+                <div className="container">
+                    <div className="contact_wrapper">
+                        <div className="contact_col">
+                            <div className="contact_image">
+                                <img src="https://res.cloudinary.com/dchx8lhox/image/upload/v1764161690/contact_iyinlq.jpg" alt="Contact" loading='lazy'/>
+                            </div>
+                        </div>
+                        <div className="contact_col">
+                            <h2>Contact Us</h2>
+                            <form>
+                                <div className="input_wrapper">
+                                    <input type="text" className="form-control" placeholder="Your Name..." autocomplete="off"/>
+                                </div>
+                                <div className="input_wrapper">
+                                    <input type="text" className="form-control" placeholder="Your Phone..." autocomplete="off"/>
+                                </div>
+                                <div className="input_wrapper">
+                                    <input type="email" className="form-control" placeholder="Your Email..." autocomplete="off"/>
+                                </div>
+                                <div className="input_wrapper">
+                                    <textarea placeholder="Write a Message..."></textarea>
+                                </div>
+                                <div className="btn_wrapper">
+                                    <button type="submit" className="btn">
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}

@@ -1,0 +1,232 @@
+/* MovieDetails CSS */
+
+.movie-details {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: var(--white-color);
+}
+
+.movie-details-overlay {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px); /* blurred background */
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.details-poster img {
+    width: 280px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.details-info {
+    flex: 1;
+}
+
+.details-info h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details-info h1 span {
+    font-weight: normal;
+    color: #bbb;
+}
+
+.details-info h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+.movie-details-overlay {
+    display: flex;
+    flex-wrap: wrap; /* makes it adjust on smaller screens */
+    gap: 2rem;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.75); /* slightly darker for readability */
+}  
+
+.details-info .meta {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.score {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+/* Buttons side by side */
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.trailer-btn {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.trailer-btn:hover {
+    /* background: #666; */
+}
+
+  /* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: #000;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.watch-btn {
+    padding: 0.9rem 1.8rem;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.watch-btn:hover {
+    background: #e63946;
+}
+
+.crew p {
+    margin: 0.5rem 0;
+}
+
+.back-btn {
+    margin-top: 2rem;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  /* Responsive */
+@media (max-width: 768px) {
+    .movie-details-overlay {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .details-poster img {
+        width: 200px;
+    }
+}
+
+
+
+/* === CAST SECTION === */
+.cast-section {
+    margin-top: 2rem;
+}
+
+.cast-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.cast-scroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #e0e0e0;
+}
+
+.cast-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+.cast-scroll::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+.cast-scroll::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.cast-card {
+    min-width: 140px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.cast-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.cast-card h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0 4px;
+}
+
+.cast-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
